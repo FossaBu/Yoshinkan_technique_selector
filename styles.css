@@ -76,6 +76,11 @@ button:disabled {
   z-index: 100;
 }
 
+/* Ensure the overlay can be hidden when the `hidden` class is present. */
+#result-overlay.hidden {
+  display: none;
+}
+
 .result-card {
   background: #fff;
   padding: 20px;
